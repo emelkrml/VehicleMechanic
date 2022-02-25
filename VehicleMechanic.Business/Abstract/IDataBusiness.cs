@@ -14,5 +14,7 @@ namespace VehicleMechanic.Business.Abstract
         IVehicleRepository Vehicle { get;  }
         IAppointmentRepository Appointment { get;  }
         IWorkOrderRepository WorkOrder { get;  }
+
+        int SaveChanges();
     }
 }
